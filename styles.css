@@ -19,13 +19,13 @@ body{
 .output-wrapper{
     display: grid;
     grid-template-columns: 1fr 1fr;
-    width: 400px;
-    min-height: 200px;
+    width: 350px;
+    min-height: 250px;
 }
 
 .output-wrapper input{
     border: none;
-    padding: 1rem 2rem;
+    padding: 5px 10px;
     margin: 0;
     text-decoration: none;
     background: #283b52;
@@ -34,7 +34,7 @@ body{
     font-size: 1rem;
     cursor: pointer;
     text-align: center;
-    transition: background 100ms ease-in-out, 
+    transition: background 150ms ease-in-out, 
                 transform 150ms ease;
     -webkit-appearance: none;
     -moz-appearance: none;
@@ -67,6 +67,7 @@ body{
     grid-column-start: 1;
     grid-column-end: 3;
     background-color: rgb(99, 255, 215);
+    color: black;
 }
 
 .clear-btn{
@@ -82,8 +83,8 @@ body{
 .input-wrapper{
     display:grid;
     grid-template-columns: 1fr 1fr 1fr 1fr;
-    width: 400px;
-    min-height: 200px;
+    width: 350px;
+    min-height: 250px;
 }
 
 .input-wrapper >*{
@@ -97,7 +98,7 @@ body{
     font-size: 1rem;
     cursor: pointer;
     text-align: center;
-    transition: background 250ms ease-in-out, 
+    transition: background 150ms ease-in-out, 
                 transform 150ms ease;
     -webkit-appearance: none;
     -moz-appearance: none;
