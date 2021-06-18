@@ -68,6 +68,17 @@ body{
     grid-column-end: 3;
     background-color: rgb(99, 255, 215);
     color: black;
+    display: flex;
+    align-items: flex-end;
+    justify-content: flex-end;
+}
+
+.large-calc-display{
+    height: 30px;
+    width: 80%;
+    margin: 0px;
+    padding: 5px 20px 5px 5px;
+    text-align: end;
 }
 
 .clear-btn{
